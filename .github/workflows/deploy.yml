@@ -1,0 +1,8 @@
+# .github/workflows/deploy.yml
+name: Deploy Workflow
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Missing config" && exit 1
